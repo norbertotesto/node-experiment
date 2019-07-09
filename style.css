@@ -8,9 +8,14 @@ html {
     background-color: #fff;
     color: black;
     font-size: 20px;
+    width: 960px; /* rozmiar strony */
+    margin: 0 auto; /* zajmuje całą powierzchnię*/
+}
+nav {
+    
 }
 ul .glowne-menu {
-    
+    margin: 0 auto;
    
     display: block;
     
@@ -18,16 +23,93 @@ ul .glowne-menu {
 }
 .glowne-menu li {
     display: inline-block;
-    padding: 10px;
-    margin:0 auto; 
-    text-align: center;
-    text-decoration: none;
+    padding: 5px;
+/*    text-align: center;*/
     text-transform: uppercase;
     
     
     
+    
+    
 }
-.glowne-menu li:hover{
+.glowne-menu li:first-child {
+    padding-left: 20px;
+}
+.glowne-menu li a:hover{
     
     color: yellow;
 }
+
+.glowne-menu li a {
+    
+    text-decoration: none;
+}
+div h1 {
+    text-transform: uppercase;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #3342aa;
+    font-size: 18px;
+    color:white;
+    
+}
+
+ .articles {
+    
+    padding-top: 20px;
+}
+div h1  {
+    text-transform: uppercase;
+    color: blue;
+    font-size: 10px;
+}
+div footer h2 {
+    margin: 20px 0;
+}
+.post-head {
+    padding-top: 16px;
+    font-size: 16px;
+    background-color: #444;
+    color:white;
+    
+}
+.post-body p{
+    color: whitesmoke;
+    font-size: 12px;
+    background-color: #999;
+    padding: 0 20px;
+    margin: 0 auto;
+    
+}
+.awarie-header{
+    
+    background-color:aqua;
+    color:brown;
+}
+
+/* formularz*/
+
+
+}
+
+.formularz {
+    width: 500px;
+    margin: 0 auto;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea
+{
+    display: block;
+    border: solid 1px #333;
+    padding:5px;
+    width: 50%; 
+}
+
+fieldset {
+    
+    padding: 40px;
+    border: solid 1px #aaa;
+    background-image: url(grafilka/tlo.jpg);
+    opacity: 0.5;
