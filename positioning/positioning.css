@@ -1,0 +1,32 @@
+html{
+    background-color: #fff;
+}
+
+.box {
+    background-color: #db4e3e;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+#relative {
+    position: relative;
+    top:10px;
+    left: -50px;
+}
+#absolute {
+    position:absolute;
+}
+#fixed {
+    position:fixed;
+    bottom:50px;
+    left: 40px;
+        
+}
